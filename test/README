@@ -1,0 +1,19 @@
+Los tests se encuentran separados en directorios, cada directorio corresponde
+a un modelo atómico y el directorio 'modelo-top' contiene el modelo final.
+Dentro de cada directorio están los archivos de input (.ext), los .ma y un 
+script llamado 'test'.
+
+Para correr los casos de test, se debe utilizar el script 'test' que se 
+encuentra en cada uno de los directorios. La sintaxis es la siguiente:
+
+    Test <TestID>
+    Donde:
+        TestID es el número de test que figura en el informe.
+
+Es importante que el binario .simu. se encuentre compilado y en el PATH para 
+que el script funcione correctamente.
+
+El script genera los siguientes archivos de salida:
+    Test.log	Archivo con el log interno de la corrida.
+    Test.out	Archivo con los eventos de salida de la corrida.
+

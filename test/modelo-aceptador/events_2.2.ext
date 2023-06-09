@@ -1,0 +1,10 @@
+00:00:00:00 autoIn 10
+00:00:00:01 autoIn 10
+00:00:00:15 controlA 10
+00:00:00:35 controlA 1
+00:00:00:45 controlA 1
+00:00:00:50 autoIn 10
+00:00:00:60 autoIn 10
+00:00:00:70 controlA 10
+00:00:00:535 controlA 1
+00:00:00:545 controlA 1

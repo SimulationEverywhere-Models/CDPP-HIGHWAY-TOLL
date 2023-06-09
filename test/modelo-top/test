@@ -1,0 +1,7 @@
+#!/bin/sh
+LOG=test.log
+OUTPUT=test.out
+INPUT=events_$1.ext
+MODEL=model.ma
+
+simu -o$OUTPUT -e$INPUT -m$MODEL -l$LOG -s
